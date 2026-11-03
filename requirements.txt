@@ -1,0 +1,12 @@
+# CPU PyTorch is installed separately by run.bat from the official CPU wheel index.
+# The web UI uses FastAPI and a native RTL HTML/CSS/JavaScript dashboard.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+numpy>=1.26
+tokenizers>=0.20
+openai>=1.50
+safetensors>=0.4
+transformers>=4.45
+huggingface_hub>=0.26
+accelerate>=1.0

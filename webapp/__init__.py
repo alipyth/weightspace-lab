@@ -1,0 +1,1 @@
+"""WeightSpace Lab web interface."""

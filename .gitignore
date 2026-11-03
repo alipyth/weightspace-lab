@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editor files
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# User model files and caches
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.gguf
+.cache/
+.huggingface/
+hf_cache/
+models/
+downloads/
+
+# Runtime data
+workspace/web_sessions/
+workspace/exports/*
+!workspace/exports/.gitkeep
+workspace/experiments/*
+!workspace/experiments/.gitkeep
+*.log
